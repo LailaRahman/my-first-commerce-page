@@ -1,0 +1,46 @@
+:root {
+    --danger:#eb2f06;
+    --warning:#fed330;
+    --secondray:#CAD3C8;
+    --dark: #2f3542;
+    --light-grey:#dfe4ea;
+    --ex-light-grey: #f1f2f6;
+    --orange:#EE5A24;
+    --light-orange:#FFC312;   
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    animation: all 0.5s ease;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--ex-light-grey);
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow-sm{box-shadow: 1px 1px 8px grey;}
+
+.bg-danger{background-color: var(--danger)}
+.bg-dark{background-color: var(--dark)}
+.ml-5{margin-left: 5px}
+.mr-5{margin-right: 5px}
+.mt-5{margin-top: 5px}
+.mb-5{margin-bottom: 5px}
+
+.ml-10{margin-left: 10px}
+.mr-10{margin-right: 10px}
+.mt-10{margin-top: 10px}
+.mb-10{margin-bottom: 10px}
